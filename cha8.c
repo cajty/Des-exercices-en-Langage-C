@@ -3,23 +3,25 @@
 int main ()
 {
     int c;
-    printf("enterz la moyenne de ses notes\n");
+    printf("enterz la moyenne de \n");
     scanf("%d", &c);
 
     if (c >= 0 && c <= 20 ){
-         if(num > 0){
-        printf(" le nombre donne est positif\n ");
-    }
-     else if(num < 0) {
-        printf(" le nombre donne est le nombre donnÈ est  negatif\n");
-    }
-    else {
-        printf(" le nombre donne est positif nul\n");
-    }
-
+         if(c < 10)
+        printf(" il est recale\n ");    
+    else if(c >= 10 && c < 12) 
+        printf("il obtient la mention passable\n");   
+    else if(c >= 12 && c < 14)
+        printf(" il obtient la mention assez bien.\n");
+    else if (c >= 14 && c < 16) 
+        printf("il obtient la mention  \n");
+     else if ( c > 16) 
+        printf("il obtient la mention tr√®s bien\n");
     }else{
-        printf("la moyenne de ses notes est no valid")
+      printf("entrer une moyenne\n "); 
+
     }
 
     return 0;
 }
+

@@ -3,7 +3,7 @@
 int main () {
         int a, b, c, delt;
         float sol1, sol2, sqde;
-        printf("L'équation du second degré est une équation polynomiale de la forme : ax^2 + bx + c = 0\n");
+        printf("L'ï¿½quation du second degrï¿½ est une ï¿½quation polynomiale de la forme : ax^2 + bx + c = 0\n");
 
         printf("enter a: \n");
         scanf("%d", &a);
@@ -14,7 +14,7 @@ int main () {
         printf("enter c: \n");
         scanf("%d", &c);
 
-        printf("voter équation est %dX^2 + %dX + %d = 0\n", a, b, c);
+        printf("voter equation est %dX^2 + %dX + %d = 0\n", a, b, c);
 
         delt = pow(b, 2) - (4 * a * c) ;
         sqde = sqrt(fabs(delt));
