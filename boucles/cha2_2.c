@@ -1,4 +1,5 @@
-#include <stdio.h>
+
+  #include <stdio.h>
 int main (){
   int num;
     printf("entre nombre :\n");
@@ -19,4 +20,3 @@ int main (){
         printf("\n");
     }
 }
-  
