@@ -4,19 +4,24 @@ int main (){
   int num;
     printf("entre nombre :\n");
     scanf("%d", &num);
-    int a = sqrt(num);
+  
     if(num == 2 || num == 1){
         printf("prmier\n");
+        return 0;
     }
-    else if () {
+      int a = sqrt(num);
       for(int i=2 ;i <= a ; i++){
       if(num % i == 0 ){
-          printf("%d NOT",num);;
-      }
-      
+          printf("%d NOT Pprmier",num);;
+          break;  
     }
-    
-    
+    }
+      for(int i=2 ;i <= a ; i++){
+      if(num % i != a ){
+          printf("%dprmier",num);
+          break;  
+    }
+    }
     return 0;
 }
 
