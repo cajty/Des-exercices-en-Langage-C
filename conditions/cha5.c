@@ -12,12 +12,12 @@ int main () {
 		printf("convertir en mois: %d \n", annee * 12);
 		break;
 	case  2 :
-		printf("convertir en jours: %d \n", annee * 30);
+		printf("convertir en jours: %d \n", annee * 30 * 12);
 	case  3 :
-		printf("convertir en mois: %d \n", annee * 12);
+		printf("convertir en heures: %d \n", annee * 12 * 30 * 24);
 		break;
 	case  4 :
-		printf("convertir en jours: %d \n", annee * 30);
+		printf("convertir en minuter: %d \n", annee * 30 * 12 *24* 60 );
 		break;
 	default: printf("not option\n");
 }
