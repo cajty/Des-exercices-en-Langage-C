@@ -9,19 +9,19 @@ int main (){
         printf("prmier\n");
         return 0;
     }
-      int a = sqrt(num);
-      for(int i=2 ;i <= a ; i++){
+      for(int i=3 ;i < num ; i++){
       if(num % i == 0 ){
-          printf("%d NOT Pprmier",num);;
+          printf("%d  not  Pprmier\n", num);
+          return 0; 
+          //break; 
+    }
+    }
+      for(int i=3 ;i <= num ; i++){
+      if(num % i != 0 ){
+          printf("%d prmier\n", num);
           break;  
     }
-    }
-      for(int i=2 ;i <= a ; i++){
-      if(num % i != a ){
-          printf("%dprmier",num);
-          break;  
-    }
-    }
+      }
     return 0;
 }
 
